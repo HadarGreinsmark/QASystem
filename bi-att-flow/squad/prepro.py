@@ -18,7 +18,8 @@ def main():
 
 def get_args():
     parser = argparse.ArgumentParser()
-    home = os.path.expanduser("~")
+    # home = os.path.expanduser("~")
+    home = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     source_dir = os.path.join(home, "data", "squad")
     target_dir = "data/squad"
     glove_dir = os.path.join(home, "data", "glove")

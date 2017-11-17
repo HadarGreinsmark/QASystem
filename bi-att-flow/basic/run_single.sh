@@ -13,7 +13,7 @@ then
 fi
 
 # Preprocess data
-python3 -m squad.prepro --mode single --single_path $source_path $parg --target_dir $inter_dir --glove_dir .
+python3 -m squad.prepro --mode single --single_path $source_path $parg --target_dir $inter_dir --glove_dir data/glove
 
 num=37
 load_path="$root_dir/$num/save"
