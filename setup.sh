@@ -12,4 +12,6 @@ pip install -r requirements.txt
 echo "Now download save.zip from https://worksheets.codalab.org/bundles/0xbe46c9b116fa443fb5cb743ab9fa4104/"
 echo "Download glove vectors from https://worksheets.codalab.org/bundles/0x15a09c8f74f94a20bec0b68a2e6703b3/"
 
-
+mkdir bi-att-flow/data
+mkdir bi-att-flow/data/squad
+wget https://github.com/allenai/bi-att-flow/blob/demo/data/squad/shared_test.json bi-att-flow/data/squad
