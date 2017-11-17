@@ -105,3 +105,9 @@ ENV/
 bin/
 include/
 ls/
+.idea/
+bi-att-flow/data/
+bi-att-flow/save/
+
+#data files
+*.txt
