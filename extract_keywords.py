@@ -2,9 +2,9 @@
 import nltk
 from nltk.corpus import stopwords
 
-# Extract all the entities
-
-
+# 1. Extract all named entities
+# 2. Filter out stopwords
+# 3. Return both the entities as well as the words
 def word_tokenize(tokens):
     return [token.replace("''", '"').replace("``", '"') for token in nltk.word_tokenize(tokens)]
 
